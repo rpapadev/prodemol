@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #f1f1f1;
+    background-color: #D9D9D9;
     max-height: 110px;
     width: 100%;
     justify-content: space-between;
@@ -32,13 +32,13 @@
 
 .navbar-link:hover {
     background-color: #08046C;
-    color: #fff;
+    color: #D9D9D9;
     border-radius: 25px;
 }
 
 .navbar-link.active {
     background-color: #08046C;
-    color: #fff;
+    color: #D9D9D9;
     text-decoration: underline;
     border-radius: 25px;
 }
