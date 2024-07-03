@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    max-height: 90px;
+}
+
+.navbar-logo img {
+    height: 100px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin-left: 230px;
+    padding: 0;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #08046C;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+    background-color: #08046C;
+    color: #fff;
+    text-decoration: underline;
+    border-radius: 25px;
+}
+
+.navbar-whatsapp img {
+    height: 50px;
+}
+
+.navbar-whatsapp img:hover {
+    transform: scale(1.1);
+}
