@@ -37,13 +37,13 @@
 
 .navbar-link:hover {
     background-color: #08046C;
-    color: #D9D9D9;
+    color: #fff;
     border-radius: 25px;
 }
 
 .navbar-link.active {
     background-color: #08046C;
-    color: #D9D9D9;
+    color: #fff;
     text-decoration: underline;
     border-radius: 25px;
 }
