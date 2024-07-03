@@ -1,10 +1,15 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     background-color: #D9D9D9;
     max-height: 110px;
     width: 100%;
     justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-logo img {
@@ -49,4 +54,8 @@
 
 .navbar-whatsapp img:hover {
     transform: scale(1.1);
+}
+
+.main-content {
+    padding-top: 110px;
 }
