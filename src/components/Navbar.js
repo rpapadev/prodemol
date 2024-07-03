@@ -38,7 +38,11 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className="navbar-whatsapp">
-                    <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer">
+                    <a
+                        href="https://wa.me/5511976806942?text=Olá,%20achei%20seu%20telefone%20através%20do%20site."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img src={whatsapp} alt="WhatsApp" />
                     </a>
                 </div>
