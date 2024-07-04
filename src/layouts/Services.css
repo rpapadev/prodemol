@@ -1,0 +1,38 @@
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.service {
+    background-color: #e0e0e0;
+    border: 2px solid #08046C;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: 400px;
+    text-align: center;
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: #08046C;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #333;
+    text-align: justify;
+}
