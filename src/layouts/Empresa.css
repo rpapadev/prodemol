@@ -1,0 +1,20 @@
+.historia-container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.historia-title {
+    color: #08046C;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.historia-text {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
