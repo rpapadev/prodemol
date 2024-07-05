@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import Services from '../components/Services';
 import AboutUs from '../components/AboutUs';
 import WhyChooseUs from '../components/WhyChooseUs';
+import StatsCounter from '../components/StatsCouter';
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <Services />
             <AboutUs />
             <WhyChooseUs />
+            <StatsCounter />
         </div>
     );
 }

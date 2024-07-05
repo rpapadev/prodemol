@@ -11,6 +11,7 @@ import Produtos from './pages/Produtos';
 import Tecnologia from './pages/Tecnologia';
 import Qualidade from './pages/Qualidade';
 import Contato from './pages/Contato';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/qualidade" element={<Qualidade />} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
