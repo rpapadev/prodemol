@@ -6,6 +6,7 @@ import AboutUs from '../components/AboutUs';
 import WhyChooseUs from '../components/WhyChooseUs';
 import StatsCounter from '../components/StatsCouter';
 import Contact from '../components/Contact';
+import Location from '../components/Location';
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <WhyChooseUs />
             <StatsCounter />
             <Contact />
+            <Location />
         </div>
     );
 }

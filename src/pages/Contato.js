@@ -1,10 +1,13 @@
 import React from 'react';
 
+import Contact from '../components/Contact';
+import Location from '../components/Location';
+
 function Contato() {
     return (
         <div className="main-content">
-            <h1>Contato</h1>
-            <p>Bem-vindo à página inicial!</p>
+            <Contact />
+            <Location />
         </div>
     );
 }

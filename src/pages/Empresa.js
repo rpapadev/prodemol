@@ -2,6 +2,7 @@ import React from 'react';
 import '../layouts/Empresa.css';
 
 import Gallery from '../components/Gallery';
+import Location from '../components/Location';
 
 const Empresa = () => {
     return (
@@ -22,6 +23,7 @@ const Empresa = () => {
                 </p>
             </section>
             <Gallery />
+            <Location />
         </div>
     );
 };
