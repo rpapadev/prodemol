@@ -24,7 +24,7 @@ const Banner = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
                 >
-                    Excelência em Modificações e Restaurações de Moldes
+                    Excelência em construção, modificação e restaurações de moldes
                 </motion.h1>
                 <motion.button
                     className="banner-button"
