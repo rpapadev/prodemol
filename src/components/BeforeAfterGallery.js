@@ -66,6 +66,9 @@ const BeforeAfterGallery = () => {
                             className={`before-after-gallery-image ${isDragging && draggedIndex === index ? 'dragging' : ''}`}
                             onDragStart={(e) => e.preventDefault()}
                         />
+                        <div className="before-after-caption">
+                            {currentIndex[index] ? 'Depois' : 'Antes'}
+                        </div>
                         <button className="arrow-left" onClick={() => toggleImage(index)}>&#9664;</button>
                         <button className="arrow-right" onClick={() => toggleImage(index)}>&#9654;</button>
                     </div>
