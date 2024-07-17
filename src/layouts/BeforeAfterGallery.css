@@ -1,0 +1,68 @@
+.before-after-gallery-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.before-after-gallery-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.before-after-gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.before-after-gallery-item {
+    width: 32%;
+    position: relative;
+    overflow: hidden;
+}
+
+.before-after-gallery-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+    cursor: grab;
+    user-select: none;
+}
+
+.before-after-gallery-image.dragging {
+    transition: opacity 0.5s ease-in-out;
+    transform: translateX(var(--drag-x));
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 3px;
+    z-index: 10;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+@media (max-width: 768px) {
+    .before-after-gallery-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .before-after-gallery-item {
+        width: 90%;
+    }
+}

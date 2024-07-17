@@ -1,0 +1,36 @@
+.servicos-container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    width: 93%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner-logo {
+    margin: 10px auto;
+}
+
+.servicos-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #08046C;
+}
+
+.servicos-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.servicos-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+.servicos-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: bold;
+}

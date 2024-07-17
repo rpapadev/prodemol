@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Empresa from './pages/Empresa';
 import Servicos from './pages/Servicos';
-import Produtos from './pages/Produtos';
+import Engenharia from './pages/Engenharia';
 import Tecnologia from './pages/Tecnologia';
 import Qualidade from './pages/Qualidade';
 import Contato from './pages/Contato';
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/empresa" element={<Empresa />} />
         <Route path="/servicos" element={<Servicos />} />
-        <Route path="/produtos" element={<Produtos />} />
+        <Route path="/engenharia" element={<Engenharia />} />
         <Route path="/tecnologia" element={<Tecnologia />} />
         <Route path="/qualidade" element={<Qualidade />} />
         <Route path="/contato" element={<Contato />} />

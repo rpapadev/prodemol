@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.banner-logo {
+    margin: 10px auto;
+}
+
 .historia-title {
     color: #08046C;
     font-size: 24px;
