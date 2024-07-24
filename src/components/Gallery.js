@@ -22,7 +22,7 @@ const Gallery = () => {
 
     return (
         <section className="galeria-container">
-            <h2 className="galeria-title">Galeria de Imagens</h2>
+            <h2 className="galeria-title">Nossas Instalações</h2>
             <div className="galeria-grid">
                 {images.map((image, index) => (
                     <div key={index} className="galeria-item" onClick={() => openImage(image)}>

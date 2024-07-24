@@ -12,13 +12,14 @@
 
 .before-after-gallery-item {
     position: relative;
-    flex: 1 1 calc(33.333% - 20px);
+    flex: 1 1 calc(33.33% - 20px);
     cursor: grab;
 }
 
 .before-after-gallery-image {
     width: 100%;
     transition: transform 0.3s ease-in-out;
+    height: 250px;
 }
 
 .dragging {

@@ -7,7 +7,7 @@ const importAll = (r) => {
 };
 
 // Importar todas as imagens da pasta ../img/gallery
-const images = importAll(require.context('../img/gallery', false, /\.(png|jpe?g|JPG|svg)$/));
+const images = importAll(require.context('../img/servicos', false, /\.(png|jpe?g|JPG|svg)$/));
 
 const ServicosGallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);

@@ -4,6 +4,7 @@ import '../layouts/Empresa.css';
 import BeforeAfterGallery from '../components/BeforeAfterGallery';
 import Gallery from '../components/Gallery';
 import Location from '../components/Location';
+import Maquinas from '../components/Maquinas';
 
 import bannerlogo from '../img/bannerlogo.png'
 
@@ -42,6 +43,7 @@ const Empresa = () => {
                 </p>
             </section >
             <Gallery />
+            <Maquinas />
             <Location />
         </div >
     );
