@@ -1,12 +1,28 @@
 import React from 'react';
+import '../layouts/Tecnologia.css';
 
-function Tecnologia() {
+import bannerlogo from '../img/bannerlogo.png';
+
+const Tecnologia = () => {
     return (
-        <div className="main-content">
-            <h1>Tecnologia</h1>
-            <p>Bem-vindo à página inicial!</p>
+        <div className='main-content'>
+            <section className="tecnologia-container">
+                <div className="banner-logo">
+                    <img src={bannerlogo} alt="Logo Prodemol" />
+                </div>
+                <h2 className="tecnologia-title">Tecnologia</h2>
+                <p className="tecnologia-text">
+                    No Grupo Prodemol Moldes, investimos em tecnologias avançadas para otimizar nossos processos e garantir a máxima eficiência. Utilizamos o sistema Zero Point da Schunk, que nos permite reduzir significativamente o tempo de setup das máquinas, proporcionando maior agilidade e produtividade.
+                </p>
+                <p className="tecnologia-text">
+                    Implementamos também um sistema de preset de ferramentas, que assegura precisão e eficiência na troca de ferramentas. Além disso, utilizamos apalpadores de precisão para o zeramento de peças, garantindo exatidão em cada etapa do processo de usinagem.
+                </p>
+                <p className="tecnologia-text">
+                    Essas tecnologias de ponta permitem que nossa empresa ofereça soluções de alta qualidade e precisão, atendendo às demandas mais exigentes de nossos clientes.
+                </p>
+            </section>
         </div>
     );
-}
+};
 
 export default Tecnologia;

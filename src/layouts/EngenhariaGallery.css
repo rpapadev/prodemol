@@ -1,0 +1,50 @@
+.triplet-gallery-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.triplet-gallery-grid {
+    display: flex;
+    overflow: hidden;
+}
+
+.triplet-gallery-set {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+}
+
+.triplet-gallery-image {
+    flex: 1;
+    width: 33.33%;
+    height: 300px;
+    cursor: grab;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+.triplet-gallery-image:active {
+    cursor: grabbing;
+}
