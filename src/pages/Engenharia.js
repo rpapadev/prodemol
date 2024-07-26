@@ -9,7 +9,7 @@ const Engenharia = () => {
     return (
         <div className='main-content'>
             <section className="engenharia-container">
-                <div className="banner-logo">
+                <div className="banner-logo-eng">
                     <img src={bannerlogo} alt="Logo Prodemol" />
                 </div>
                 <h2 className="engenharia-title">Engenharia Técnica</h2>

@@ -9,7 +9,7 @@ const Servicos = () => {
     return (
         <div className='main-content'>
             <section className="servicos-container">
-                <div className="banner-logo">
+                <div className="banner-logo-servicos">
                     <img src={bannerlogo} alt="Logo Prodemol" />
                 </div>
                 <h2 className="servicos-title">Nossos Serviços</h2>

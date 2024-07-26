@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import '../layouts/Banner.css'
 
 import bannerlogo from '../img/bannerlogo.png'
-import homebg from '../img/homebg.png'
+import homebg from '../img/homebg.JPG'
 
 const Banner = () => {
     return (
@@ -24,7 +24,7 @@ const Banner = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
                 >
-                    Excelência em construção, modificação e restaurações de moldes
+                    Excelência em construção, modificação e revitalização de moldes
                 </motion.h1>
                 <motion.button
                     className="banner-button"

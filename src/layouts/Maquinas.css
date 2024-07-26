@@ -1,0 +1,65 @@
+.maquinas-container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    width: 93%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.maquinas-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #08046C;
+    text-align: center;
+}
+
+.maquina-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.maquina-item.left-image {
+    flex-direction: row;
+}
+
+.maquina-item.right-image {
+    flex-direction: row-reverse;
+}
+
+.maquina-image {
+    flex: 1;
+    padding: 10px;
+}
+
+.maquina-image img {
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.maquina-text {
+    flex: 1;
+    padding: 10px;
+}
+
+.maquina-text.left-image {
+    text-align: left;
+}
+
+.maquina-text.right-image {
+    text-align: right;
+}
+
+.maquina-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #08046C;
+}
+
+.maquina-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}

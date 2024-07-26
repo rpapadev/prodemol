@@ -12,7 +12,7 @@ const Empresa = () => {
     return (
         <div className="main-content">
             <section className="historia-container">
-                <div className="banner-logo">
+                <div className="banner-logo-empresa">
                     <img src={bannerlogo} alt="Logo Prodemol" />
                 </div>
                 <h2 className="historia-title">Nossa História</h2>
