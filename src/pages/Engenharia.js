@@ -1,7 +1,7 @@
 import React from 'react';
 import '../layouts/Engenharia.css';
 
-import bannerlogo from '../img/bannerlogo.png';
+//import bannerlogo from '../img/bannerlogo.png';
 
 import EngenhariaGallery from '../components/EngenhariaGallery';
 
@@ -10,7 +10,7 @@ const Engenharia = () => {
         <div className='main-content'>
             <section className="engenharia-container">
                 <div className="banner-logo-eng">
-                    <img src={bannerlogo} alt="Logo Prodemol" />
+                    {/*<img src={bannerlogo} alt="Logo Prodemol" />*/}
                 </div>
                 <h2 className="engenharia-title">Engenharia Técnica</h2>
                 <p className="engenharia-text">

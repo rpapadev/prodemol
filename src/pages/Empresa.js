@@ -6,14 +6,14 @@ import Gallery from '../components/Gallery';
 import Location from '../components/Location';
 import Maquinas from '../components/Maquinas';
 
-import bannerlogo from '../img/bannerlogo.png'
+//import bannerlogo from '../img/bannerlogo.png'
 
 const Empresa = () => {
     return (
         <div className="main-content">
             <section className="historia-container">
                 <div className="banner-logo-empresa">
-                    <img src={bannerlogo} alt="Logo Prodemol" />
+                    {/*<img src={bannerlogo} alt="Logo Prodemol" />*/}
                 </div>
                 <h2 className="historia-title">Nossa História</h2>
                 <p className="historia-text">
