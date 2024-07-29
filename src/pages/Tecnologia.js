@@ -1,14 +1,14 @@
 import React from 'react';
 import '../layouts/Tecnologia.css';
 
-import bannerlogo from '../img/bannerlogo.png';
+//import bannerlogo from '../img/bannerlogo.png';
 
 const Tecnologia = () => {
     return (
         <div className='main-content'>
             <section className="tecnologia-container">
                 <div className="banner-logo-tec">
-                    <img src={bannerlogo} alt="Logo Prodemol" />
+                    {/*<img src={bannerlogo} alt="Logo Prodemol" />*/}
                 </div>
                 <h2 className="tecnologia-title">Tecnologia</h2>
                 <p className="tecnologia-text">

@@ -15,7 +15,7 @@ const Location = () => {
                         <img src={emailIcon} alt="Email" /> comercial@prodemol.com.br
                     </p>
                     <p>
-                        <img src={phoneIcon} alt="Phone" /> (11) 97680-6942 / (11) 4393-6363
+                        <img src={phoneIcon} alt="Phone" /> (11) 99322-3872 / (11) 4393-6363
                     </p>
                 </div>
                 <div className="address">
