@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import '../layouts/QualidadeGallery.css';
 
+import cert6 from '../img/cert6.jpeg'
+import cert7 from '../img/cert7.jpeg'
+
 // Função para importar todas as imagens da pasta
 const importAll = (r) => {
     return r.keys().map(r);
@@ -38,6 +41,10 @@ const QualidadeGallery = () => {
                     </div>
                 </div>
             )}
+            <div className='compliance'>
+                <img src={cert6} alt="Selo compliance" />
+                <img src={cert7} alt="Selo compliance" />
+            </div>
         </section>
     );
 };
