@@ -25,9 +25,9 @@ const QualidadeGallery = () => {
 
     return (
         <section className="galeria-container">
-            <div className="galeria-grid">
+            <div className="galeria-grid-quali">
                 {images.map((image, index) => (
-                    <div key={index} className="galeria-item" onClick={() => openImage(image)}>
+                    <div key={index} className="galeria-item-quali" onClick={() => openImage(image)}>
                         <img src={image} alt={`Galeria Imagem ${index + 1}`} className="galeria-image" />
                     </div>
                 ))}
