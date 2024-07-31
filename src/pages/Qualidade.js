@@ -1,6 +1,8 @@
 import React from 'react';
 import '../layouts/Qualidade.css';
 
+import QualidadeGallery from '../components/QualidadeGallery';
+
 //import bannerlogo from '../img/bannerlogo.png';
 
 const Qualidade = () => {
@@ -10,7 +12,8 @@ const Qualidade = () => {
                 <div className="banner-logo-quali">
                     {/*<img src={bannerlogo} alt="Logo Prodemol" />*/}
                 </div>
-                <h2 className="tecnologia-title">Qualidade</h2>
+                <h2 className="qualidade-title">Nossos Certificados</h2>
+                <QualidadeGallery />
             </section>
         </div>
     );
