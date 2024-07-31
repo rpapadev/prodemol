@@ -80,7 +80,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-whatsapp">
-                <a href="https://wa.me/5511976806942?text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20seu%20site"
+                <a href="https://wa.me/5511993223872?text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20seu%20site"
                     target="_blank"
                     rel="noopener noreferrer">
                     Ou entre em contato agora mesmo pelo WhatsApp<img src={whatsapp} alt="WhatsApp" />
