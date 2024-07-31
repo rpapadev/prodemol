@@ -6,13 +6,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.galeria-title {
-    color: #08046C;
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .galeria-grid {
     display: flex;
     flex-wrap: wrap;
@@ -20,14 +13,14 @@
     justify-content: center;
 }
 
-.main-content.galeria-item {
+.galeria-item {
     flex: 1 1 calc(33.3% - 50px);
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    max-width: calc(25% - 10px);
+    max-width: calc(33.3% - 10px);
     max-height: 250px;
 }
 
