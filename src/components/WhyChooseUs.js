@@ -1,10 +1,10 @@
 import React from 'react';
 import '../layouts/WhyChooseUs.css';
 
-import why1 from '../img/why1.png'
-import why2 from '../img/why2.png'
-import why3 from '../img/why3.png'
-import why4 from '../img/why4.png'
+import why1 from '../img/why1.png';
+import why2 from '../img/why2.png';
+import why3 from '../img/why3.png';
+import why4 from '../img/why4.png';
 
 const WhyChooseUs = () => {
     return (

@@ -38,3 +38,26 @@
     background-color: #e0e0e0;
     margin: 20px;
 }
+
+@media (max-width: 768px) {
+    .about-us-title {
+        font-size: 2em;
+        /* Adjust title font size for smaller screens */
+    }
+
+    .about-us-content {
+        padding: 20px;
+        /* Adjust padding for smaller screens */
+        flex-direction: column;
+        /* Stack content vertically on smaller screens */
+    }
+
+    .about-us-image img {
+        width: 100%;
+    }
+
+    .about-us-text {
+        margin: 20px 0;
+        /* Adjust margin for smaller screens */
+    }
+}

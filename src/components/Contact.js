@@ -1,10 +1,9 @@
-// Contact.jsx
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import '../layouts/Contact.css';
 
-import whatsapp from '../img/whatsapp.png'
-import contatoimg from '../img/contatoimg.png'
+import whatsapp from '../img/whatsapp.png';
+import contatoimg from '../img/contatoimg.png';
 
 const Contact = () => {
     const [formData, setFormData] = useState({

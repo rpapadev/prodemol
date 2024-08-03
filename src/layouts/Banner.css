@@ -23,6 +23,8 @@
     z-index: 2;
     text-align: center;
     color: #fff;
+    padding: 20px;
+    /* Add padding to ensure content isn't too close to edges */
 }
 
 .banner-content a {
@@ -55,4 +57,54 @@
 
 .banner-button:hover {
     background-color: #050334;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 400px;
+        /* Adjust height for smaller screens */
+    }
+
+    .banner-logo {
+        width: 200px;
+        /* Adjust logo size for smaller screens */
+    }
+
+    .banner-text {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+        margin-bottom: 15px;
+    }
+
+    .banner-button {
+        padding: 8px 16px;
+        /* Adjust button padding for smaller screens */
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 350px;
+        /* Adjust height for smaller screens */
+    }
+
+    .banner-logo {
+        width: 150px;
+        /* Adjust logo size for smaller screens */
+    }
+
+    .banner-text {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+        margin-bottom: 10px;
+    }
+
+    .banner-button {
+        padding: 6px 12px;
+        /* Adjust button padding for smaller screens */
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
 }

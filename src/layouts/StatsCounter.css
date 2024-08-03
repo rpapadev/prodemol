@@ -5,12 +5,18 @@
     background-image: url('../img/counterbg.jpg');
     padding: 20px 0;
     color: white;
-    height: 100px;
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+    text-align: center;
+    /* Center text on smaller screens */
 }
 
 .stat-item {
     text-align: center;
-    margin-top: 25px;
+    margin: 20px;
+    /* Adjust margin for spacing */
+    flex: 1 1 200px;
+    /* Allow flex items to grow and shrink */
 }
 
 .stat-item h1 {
@@ -29,4 +35,38 @@
     margin-top: 5px;
     font-size: 25px;
     text-shadow: -2px -2px 0 #08046C, 2px -2px 0 #08046C, -2px 2px 0 #08046C, 2px 2px 0 #08046C;
+}
+
+@media (max-width: 768px) {
+    .stat-item h1 {
+        font-size: 30px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .stat-value {
+        font-size: 30px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .stat-label {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .stat-item h1 {
+        font-size: 25px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .stat-value {
+        font-size: 25px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .stat-label {
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
+    }
 }

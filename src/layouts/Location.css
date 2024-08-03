@@ -17,7 +17,6 @@
 .contacts,
 .address {
     margin-bottom: 20px;
-    margin-left: 20%;
 }
 
 .contacts h2,
@@ -47,4 +46,22 @@
     width: 100%;
     border: 0;
     border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .location-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location-info,
+    .map {
+        max-width: 100%;
+    }
+
+    .contacts,
+    .address {
+        margin-bottom: 15px;
+    }
 }

@@ -56,3 +56,54 @@
 .why-choose-us-card:hover {
     transform: translateY(-10px);
 }
+
+@media (max-width: 1024px) {
+    .why-choose-us-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-choose-us h2 {
+        font-size: 2em;
+    }
+
+    .why-choose-us p {
+        font-size: 1em;
+    }
+
+    .why-choose-us-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .why-choose-us-card h3 {
+        font-size: 1.2em;
+    }
+
+    .why-choose-us-card p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .why-choose-us h2 {
+        font-size: 1.5em;
+    }
+
+    .why-choose-us p {
+        font-size: 0.9em;
+    }
+
+    .why-choose-us-card img {
+        height: 80px;
+    }
+
+    .why-choose-us-card h3 {
+        font-size: 1em;
+    }
+
+    .why-choose-us-card p {
+        font-size: 0.8em;
+    }
+}

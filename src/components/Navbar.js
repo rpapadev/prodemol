@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../layouts/Navbar.css';
 
@@ -6,14 +6,19 @@ import logo from '../img/logo.png';
 import whatsapp from '../img/whatsapp.png';
 
 function Navbar() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const location = useLocation();
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
 
     return (
         <nav className="navbar">
             <div className="navbar-logo">
                 <img src={logo} alt="Grupo Prodemol" />
             </div>
-            <div className='nav-right'>
+            <div className={`nav-right ${isMenuOpen ? 'open' : ''}`}>
                 <ul className="navbar-links">
                     <li>
                         <Link to="/" className={`navbar-link ${location.pathname === '/' ? 'active' : ''}`}>Home</Link>
@@ -46,6 +51,11 @@ function Navbar() {
                         <img src={whatsapp} alt="WhatsApp" />
                     </a>
                 </div>
+            </div>
+            <div className="menu-toggle" onClick={toggleMenu}>
+                <div className="bar"></div>
+                <div className="bar"></div>
+                <div className="bar"></div>
             </div>
         </nav>
     );
