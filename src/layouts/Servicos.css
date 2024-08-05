@@ -43,3 +43,30 @@
     line-height: 1.6;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .servicos-container {
+        width: 85%;
+        padding: 15px;
+    }
+
+    .servicos-title {
+        font-size: 20px;
+    }
+
+    .servicos-text {
+        font-size: 14px;
+    }
+
+    .servicos-list {
+        padding-left: 15px;
+    }
+
+    .servicos-list li {
+        font-size: 14px;
+    }
+
+    .banner-logo-servicos {
+        height: 300px;
+    }
+}

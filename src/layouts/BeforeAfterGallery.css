@@ -58,3 +58,19 @@
     border-radius: 5px;
     font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    .before-after-gallery-item {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .arrow-left,
+    .arrow-right {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .before-after-caption {
+        font-size: 14px;
+    }
+}

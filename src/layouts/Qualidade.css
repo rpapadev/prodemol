@@ -25,3 +25,18 @@
     margin-bottom: 16px;
     color: #08046C;
 }
+
+@media (max-width: 768px) {
+    .qualidade-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .qualidade-title {
+        font-size: 20px;
+    }
+
+    .banner-logo-quali {
+        height: 300px;
+    }
+}

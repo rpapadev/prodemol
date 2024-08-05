@@ -42,3 +42,26 @@
     max-width: 100%;
     border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+    .tecnologia-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .tecnologia-title {
+        font-size: 20px;
+    }
+
+    .tecnologia-text {
+        font-size: 14px;
+    }
+
+    .banner-logo-tec {
+        height: 300px;
+    }
+
+    .video-container iframe {
+        height: 350px;
+    }
+}

@@ -48,3 +48,19 @@
 .triplet-gallery-image:active {
     cursor: grabbing;
 }
+
+@media (max-width: 768px) {
+    .triplet-gallery-container {
+        padding: 15px;
+    }
+
+    .triplet-gallery-image {
+        height: auto;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        font-size: 18px;
+        padding: 6px;
+    }
+}

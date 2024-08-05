@@ -82,3 +82,19 @@
     width: 40%;
     border-radius: 40%;
 }
+
+@media (max-width: 768px) {
+    .galeria-item-quali {
+        flex: 1 1 calc(100% - 50px);
+        max-width: calc(100% - 50px);
+        height: auto;
+    }
+
+    .galeria-item-quali {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .compliance img {
+        width: 100%;
+    }
+}

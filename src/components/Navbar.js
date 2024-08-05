@@ -13,6 +13,10 @@ function Navbar() {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
+
     return (
         <nav className="navbar">
             <div className="navbar-logo">
@@ -21,25 +25,25 @@ function Navbar() {
             <div className={`nav-right ${isMenuOpen ? 'open' : ''}`}>
                 <ul className="navbar-links">
                     <li>
-                        <Link to="/" className={`navbar-link ${location.pathname === '/' ? 'active' : ''}`}>Home</Link>
+                        <Link to="/" className={`navbar-link ${location.pathname === '/' ? 'active' : ''}`} onClick={closeMenu}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/empresa" className={`navbar-link ${location.pathname === '/empresa' ? 'active' : ''}`}>Empresa</Link>
+                        <Link to="/empresa" className={`navbar-link ${location.pathname === '/empresa' ? 'active' : ''}`} onClick={closeMenu}>Empresa</Link>
                     </li>
                     <li>
-                        <Link to="/servicos" className={`navbar-link ${location.pathname === '/servicos' ? 'active' : ''}`}>Serviços</Link>
+                        <Link to="/servicos" className={`navbar-link ${location.pathname === '/servicos' ? 'active' : ''}`} onClick={closeMenu}>Serviços</Link>
                     </li>
                     <li>
-                        <Link to="/engenharia" className={`navbar-link ${location.pathname === '/engenharia' ? 'active' : ''}`}>Engenharia</Link>
+                        <Link to="/engenharia" className={`navbar-link ${location.pathname === '/engenharia' ? 'active' : ''}`} onClick={closeMenu}>Engenharia</Link>
                     </li>
                     <li>
-                        <Link to="/tecnologia" className={`navbar-link ${location.pathname === '/tecnologia' ? 'active' : ''}`}>Tecnologia</Link>
+                        <Link to="/tecnologia" className={`navbar-link ${location.pathname === '/tecnologia' ? 'active' : ''}`} onClick={closeMenu}>Tecnologia</Link>
                     </li>
                     <li>
-                        <Link to="/qualidade" className={`navbar-link ${location.pathname === '/qualidade' ? 'active' : ''}`}>Qualidade</Link>
+                        <Link to="/qualidade" className={`navbar-link ${location.pathname === '/qualidade' ? 'active' : ''}`} onClick={closeMenu}>Qualidade</Link>
                     </li>
                     <li>
-                        <Link to="/contato" className={`navbar-link ${location.pathname === '/contato' ? 'active' : ''}`}>Contato</Link>
+                        <Link to="/contato" className={`navbar-link ${location.pathname === '/contato' ? 'active' : ''}`} onClick={closeMenu}>Contato</Link>
                     </li>
                 </ul>
                 <div className="navbar-whatsapp">
@@ -47,6 +51,7 @@ function Navbar() {
                         href="https://wa.me/5511993223872?text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20seu%20site"
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={closeMenu}
                     >
                         <img src={whatsapp} alt="WhatsApp" />
                     </a>
