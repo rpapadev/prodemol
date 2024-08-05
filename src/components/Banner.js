@@ -33,7 +33,7 @@ const Banner = () => {
                     transition={{ duration: 1, delay: 1 }}
                 >
                     <a
-                        href="https://wa.me/5511976806942?text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20seu%20site"
+                        href="https://wa.me/5511993223872?text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20seu%20site"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
